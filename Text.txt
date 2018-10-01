@@ -1,0 +1,120 @@
+Greetings, Summoners
+
+Welcome to Patch 5.19, the one where we take a step back from all the big changes we??ve made to the game recently and buff Miss Fortune. So take a load off, relax and enjoy a light patch to catch your breath while we take head-count and make sure everything??s tidy before the new season comes around.
+
+For those of you that aren??t interested in Miss Fortune buffs (the heathens), we also have a slew of impactful bugfixing and a complete rework of the jungle leashing system. Now you??ll have an inkling of why the blue buff you invaded to steal decided to walk back as the enemy team descends to feast upon your failure, but hey, you knew the risks going in.
+
+That??s it for us! Check below for the specifics (as well as some sweet HUD updates and Worlds-related shenanigans), and we??ll see you on Rift. Laughing uncontrollably. Firing a stream of bullets into your team. Miss Fortune.
+ Patrick "Scarizard" Scarborough
+Patch Updates
+10/1/2015
+Ranked Teams
+OTHERWISE WHAT'S THE POINTFixed a bug where ranked teams weren't gaining LP
+THERE'S A PUN IN HERE SOMEWHEREFixed a visual bug where progress toward ranked team ward skins appeared to be reset. Your points were not lost.
+Champions
+
+Kindred
+Kindred, the Eternal Hunters, will be released later during patch 5.19! To learn more about League's next champion, check the following links:
+Champion Reveal
+Champion Insights
+A Good Death
+Kindred Q&A
+
+Garen
+Spinning on Villains works as intended.
+
+For someone who spends his time tracking down Villains, Garen was fighting pretty dirty when it came to slaying the guilty; now it??s our turn to bring him to justice (I still wouldn??t stand next to him, though).
+E - Judgment
+ZEALOUS PERSECUTION Fixed a bug where Judgment was dealing damage to the Villain equal to 1% of Garen??s Health rather than the Villain??s
+
+Miss Fortune
+R has a scaling bonus AD ratio.
+
+Though the days of Miss Fortune??s dominance have long passed, she??s still a natural pick when looking to combo tons of bullets into an enemy team. We??re looking to push the relevance of Miss Fortune in the team-fighting compositions she??s already good in, rendering the recipients of a well-placed Bullet Time into nothin?? but powder monkeys.
+R - Bullet Time
+NEWRATIO PER WAVE Now additionally scales with 0.1 / 0.175 / 0.25 bonus attack damage per wave
+NEWTOTAL RATIO 0.8 / 1.4 / 2.0 bonus attack damage
+
+Shen
+E reduces the damage of targets affected.
+
+When tinkering around with some of Shen??s scripts, we realized that this functionality??s actually been gone from him for quite a while now, so we??re putting it back where we found it.
+E - Shadow Dash
+THE UNSEEN BUG Fixed a bug that caused taunted enemies to not deal reduced damage to Shen
+
+Zac
+Last patch, we fixed a bug where Elastic Slingshot would fail to shoot as far as it said it could by rewriting how the skill worked. In doing so, we noticed something was off in the snap-cast case, and added a 300 unit minimum to match the feeling. That said, how it worked originally (before any of these range-increase shenanigans) was that you could snapcast anywhere between 0 and 300 - so we??re just reverting back to that.
+
+TL;DR - Zac??s all back together again (until he uses an ability, that is).
+E - Elastic Slingshot
+BIT OF A STRETCH Fixed a bug where Elastic Slingshot had a minimum range of 300 units instead of 0
+Items
+
+Enchantment - Devourer
+Sated??s Phantom Hit takes longer to apply for ranged champions.
+
+Though popularly known as the go-to item for Xin Zhaos and Shyvanas looking to melt faces, Devourer (and its Sated evolution) systematically skew harder towards ranged champions like Vayne and Kayle when it comes to raw power, safety, and availability of on-hits. While ??Ranged Sated Junglers?? might be an outlier at present, but we??re taking action towards actively balancing the item for ranged users while we evaluate how best to support them on an champion-specific level if necessary.
+PHANTOM HIT FOR RANGED CHAMPIONS every 2nd hit -> every 4th hit
+PHANTOM HIT FOR MELEE CHAMPIONS unchanged
+Jungle
+Leashing
+Leashing makes sense. More sense.
+
+Over the seasons, leashing went from being a set of basic rules to having so many edge-cases it felt almost random when something would reset or wouldn??t, leaving you without a good sense for what caused it (and more importantly, how to avoid it in the future). With that in mind, we built a new system - called Patience - to better support future jungling patterns and behaviors.
+NEWPATIENCE Jungle monsters now have a ??Patience?? characteristic. Monsters no longer reset their aggression based on distance or positioning - Instead, once the monster??s Patience is reduced to zero, the monster will reset and return to their original position. During this reset, they rapidly regenerate health and do not respond to further aggression.
+LOSING MY PATIENCE Monsters lose Patience under the following conditions:
+When a monster is in an aggressive state but can??t find any targets to attack (ex. its target died or became untargetable)
+When a monster??s target is too far away from the monster??s initial spawn location or the monster is VERY far away from its initial spawn location
+When the monster is forced to switch targets
+IT COMES WITH AGE Large monsters display their Patience in a meter above their heads
+IN MY HAPPY PLACE Once a monster has recovered to 90% health, they regain all of their Patience
+YANKING MY CHAIN Abilities that pull or displace monsters no longer completely reset the monster??s aggro if they already had a previous target
+Jungle Tuning
+Gromp and Bigwolf have tinier arms.
+
+Thanks to the new leashing rules above, this makes taking Gromp over the wall impossible (he??d lose his patience!), so we??re making him easier to kite and juggle without taking damage. Similarly, fixing a case that would let Bigwolf attack over a wall in some scenarios!
+GROMP??S ATTACK RANGE 550 ? 250
+GREATER MURKWOLF??S ATTACK RANGE 175 ? 125
+Permanent Rune Sale
+Many moons ago, we began talking about making Rune Bundles in the service of helping players just getting started on their Tier 3 Rune Pages. Then, we realized we could make a bunch of really popular ones 50% off permanently, so we??re just doing that instead.
+GREATER MARK OF ATTACK DAMAGE 205 IP ? 102 IP
+GREATER MARK OF MAGIC PENETRATION 410 IP ? 205 IP
+GREATER SEAL OF ARMOR 205 IP ? 102 IP
+GREATER GLYPH OF MAGIC RESIST 205 IP ? 102 IP
+GREATER QUINTESSENCE OF ATTACK DAMAGE 1025 IP ? 512 IP
+GREATER QUINTESSENCE OF ABILITY POWER 1025 IP ? 512 IP
+In-Client Worlds Features
+Once the Worlds train starts rolling, we'll be activating a number of features in the client for easy access to information surrounding the World Championship as it unfolds.
+THE ESPORTS SECTION An in-client Worlds info hub has been added to the Landing Page (new tab!) for all flavors of stories and information, including match schedules and results. All match results will be hidden behind spoiler toggles.
+TICK TOCK The Featured Matches spectator card on the Landing Page will be replaced with a countdown timer to the next Worlds match. It can be switched back to Featured Matches via a toggle in the upper righthand corner.
+YOU ARE CORDIALLY INVITED... Worlds match notifications (think game invites) will appear shortly before each match begins - click on them to open the Worlds broadcast in your browser. These can be disabled via "Suppress eSports Notification Popups" in the Options menu.
+HUD Updates
+HUD Customization
+Still bathing in your feedback. Still makin?? HUD updates.
+New preference to display or hide summoner names on the scoreboard
+New preference to mirror the scoreboard layout
+New preference to display team frames on the left side of the screen
+Ping Display Changes
+Colored ping bars can be pretty arbitrary to the average player, as there's no accepted 'standard' of what someone should do when they see yellow - or red - bars instead of green. We're making a simple change so there's more clarity around what a player's connection speed is to the game server so they can derive meaningful information from that. This is a long piece of context to say we want to show you real information, not colors.
+COLORBLIND The colored ping bar (Red/Yellow/Green) has been removed, and now displays your actual ping instead.
+Bugfixes
+Resolved a cause of random disconnects in the client. If you disabled Windows IP Helper to mitigate the problem, you can now safely re-enable it!
+Fixed a bug where Sated Devourer??s bonuses were sometimes persisting after the enchanted item was sold
+Unit- and ground-targeted spells will once again automatically fire if you cast them out of range, then Flash into range while moving
+Fixed an inconsistency with Bilgewater Cutlass's active cooldown
+Resolved multiple cases of the Character Quality setting (under Video) being overridden by other video settings
+Lissandra once again tells the story of the Howling Abyss if you wait long enough after winning an ARAM
+Upcoming Skins
+The following skins will be released at various times during patch 5.19:
+
+
+Shadowfire Kindred
+
+Ironside Malphite
+Sea Hunter Aatrox, Rogue Admiral Garen and Corsair Quinn have had their splashes updated to match!
+
+Marauder Alistar
+Marauder Olaf
+
+Warden Jax
+Warden Karma
